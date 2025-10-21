@@ -1,6 +1,6 @@
-"use client"
+"use client";
 
-import { MessageCircle, Zap } from "lucide-react";
+import { MessageCircle, Zap, Linkedin, Twitter, Github, Globe, Instagram } from "lucide-react";
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import HeroBillboard from '@/components/sections/hero/HeroBillboard';
@@ -151,8 +151,8 @@ export default function Home() {
               imageSrc: teamLeadAsset.url,
               imageAlt: teamLeadAsset.alt,
               socialLinks: [
-                { icon: "Linkedin", url: "https://linkedin.com/in/sarah-mitchell" },
-                { icon: "Twitter", url: "https://twitter.com/sarahtech" }
+                { icon: Linkedin, url: "https://linkedin.com/in/sarah-mitchell" },
+                { icon: Twitter, url: "https://twitter.com/sarahtech" }
               ]
             },
             {
@@ -163,8 +163,8 @@ export default function Home() {
               imageSrc: seniorDevAsset.url,
               imageAlt: seniorDevAsset.alt,
               socialLinks: [
-                { icon: "Github", url: "https://github.com/davidchen" },
-                { icon: "Linkedin", url: "https://linkedin.com/in/david-chen" }
+                { icon: Github, url: "https://github.com/davidchen" },
+                { icon: Linkedin, url: "https://linkedin.com/in/david-chen" }
               ]
             },
             {
@@ -175,8 +175,8 @@ export default function Home() {
               imageSrc: uxDesignerAsset.url,
               imageAlt: uxDesignerAsset.alt,
               socialLinks: [
-                { icon: "Globe", url: "https://emilyrodriguez.design" },
-                { icon: "Instagram", url: "https://instagram.com/emily_designs" }
+                { icon: Globe, url: "https://emilyrodriguez.design" },
+                { icon: Instagram, url: "https://instagram.com/emily_designs" }
               ]
             }
           ]}
